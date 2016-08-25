@@ -1,0 +1,176 @@
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="css/Formulaire.css" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Street Art</title>
+</head>
+
+<body>
+
+
+    <style>
+        body {
+            margin: 0px;
+            background: no-repeat center center fixed rgb(238, 238, 238);
+            background-repeat: no-repeat;
+            font-family: Comic Sans MS;
+        }
+    </style>
+
+    <body>
+        <!--============================menu-Horizontal======================================================-->
+        <div id="content">
+            <div id="header">
+                <div id="logo"><img src="image/logo.png" height="150" width="700" /></div>
+            </div>
+
+            <div id="sous-header">
+                <div id="menu">
+                    <a href="Acceuil.html"><img src="image/home.png" height="40" width="40" /></a>
+                    <a href="street.html">
+                        <input type="button" value="L'art Urbain" class="btn" />
+                    </a>
+                    <a href="Index.html">
+                        <input type="button" value="Acceuil" class="btn" />
+                    </a>
+                    <a href="Galerie.html">
+                        <input type="button" value="Galerie" class="btn" />
+                    </a>
+
+                    <a href="A%20Propos.html">
+                        <input type="button" value="Artiste" class="btn" />
+                    </a>
+                    <a href="Formulaire.html">
+                        <input type="button" value="Nous_contacter" class="btn" />
+                    </a>
+
+                </div>
+
+
+            </div>
+
+            <div id="corps">
+                <div id="content-corps">
+                    <div id="info">
+                        <div id="info-img"></div>
+                        <!--===========================menu horizontal====================================================-->
+                        <div id="content">
+                            <div id="header">
+                                <div id="logo">
+                                    <a href="../"><img src="image/logo.png" height="150" width="600" class="opacity"></a>
+                                </div>
+                            </div>
+                            <div id="sous-header">
+                                <div id="menu">
+                                    <a href="Acceuil.html"><img src="image/home.png" height="40" width="40"></a>
+                                    <a href="Acceuil.html">
+                                        <input type="button" value="Acceuil" class="btn">
+                                    </a>
+                                </div>
+                                <div id="search-bar">
+                                    <div id="bar">
+                                        <input type="text" placeholder="Rechercher" class="input"></input>
+                                    </div>
+                                    <div id="btn-search">
+                                        <a href="../">
+                                            <input type="button" value="Rechercher" class="btn-search">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--==============================Contenu========================================-->
+                            <div id="corps">
+                                <div id="content-corps">
+                                    <div id="info">
+                                        <div id="info-img">
+
+                                            <h3>Formulaire d'inscription</h3>
+                                            <form action="mailto:sokhonaousmane@hotmail.fr" method="post">
+                                                <div id="cadre">
+                                                    <table>
+                                                        <fieldset>
+                                                            <legend>Information du client</legend>
+
+                                                            <label for="NN">NOM:</label>
+                                                            <input type="text" name="nom" id="NP" size="32" maxlenght="80" />
+                                                            <br>
+                                                            <label for="NP">PRENOM:</label>
+                                                            <input type="text" name="prenom" id="NP" size="32" maxlenght="80" />
+                                                            <br>
+                                                            <label for="NS">SEXE:</label>
+                                                            <input type="radio" name="sexe" id="NS" value="F">Femme</input>
+                                                            <input type="radio" name="sexe" id="NS" value="H">Homme</input>
+                                                        </fieldset>
+                                                        <fieldset>
+                                                    </table>
+
+
+
+                                                    <legend>Cordonnées</legend>
+                                                    <table>
+                                                        <label for="AD">ADRESSE:</label>
+                                                        <tr>
+                                                            <input type="text" name="prenom" id="AD" size="32" maxlength="120" />
+                                                        </tr>
+                                                        <br>
+
+                                                        <label for="V">VILLE:</label>
+                                                        <tr>
+                                                            <input type="text" name="prenom" id="V" maxlenght="50" />
+                                                        </tr>
+                                                        <br>
+                                                        <form method="post" action="traitement.php">
+                                                            <p>
+                                                                <label for="pays">Dans quel pays habitez-vous ?</label>
+                                                                <br />
+                                                                <select name="pays" id="pays">
+                                                                    <option value="france">France</option>
+                                                                    <option value="espagne">Espagne</option>
+                                                                    <option value="italie">Italie</option>
+                                                                    <option value="royaume-uni">Royaume-Uni</option>
+                                                                    <option value="canada">Canada</option>
+                                                                    <option value="etats-unis">États-Unis</option>
+                                                                    <option value="chine">Chine</option>
+                                                                    <option value="japon">Japon</option>
+                                                                    <option value="japon">Allemagne</option>
+                                                                </select>
+
+                                                            </p>
+                                                            <label for="Tel">TELEPHONE:</label>
+                                                            <tr>
+                                                                <input type="text" name="prenom" id="TEL" size="32" maxlenght="10" />
+                                                            </tr>
+
+                                                            <form method="post" action="traitement.php">
+                                                                <p>
+                                                                    <label for="ameliorer">
+                                                                        <tr>AVEZ VOUS DES REMARQUES/COMMENTAIRES A PROPOS DU SITE ?</tr>
+                                                                    </label>
+                                                                    <br />
+
+                                                                    <textarea name="ameliorer" id="ameliorer" rows="10" cols="20">
+                                                                    </textarea>
+                                                                </p>
+                                                            </form>
+                                                            <tr>NOTEZ LE SITE</tr>
+                                                            <input type="number" />
+
+
+
+                                                            <div class="boutons">
+                                                                <button type="reset">Réinitialiser le Formulaire</button>
+                                                                <button type="submit">Envoyer</button>
+                                                            </div>
+                                                        </form>
+
+
+    </body>
+
+</html>
